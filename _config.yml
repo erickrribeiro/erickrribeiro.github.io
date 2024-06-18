@@ -63,7 +63,7 @@ plugins:
 
 author:
   name   : "Erick Ribeiro | M.Sc."
-  avatar : "/images/bio-photo.jpg"
+  avatar : "/images/bio-photo.png"
   bio    : "Cientista de Dados - FPFtech"
   links:
     # - label: "Twitter"
