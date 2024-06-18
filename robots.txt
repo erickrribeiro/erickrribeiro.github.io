@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://erickrribeiro.github.io/sitemap.xml

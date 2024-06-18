@@ -1,0 +1,153 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Erick Ribeiro
+email: erick.ribeiro.16@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Cientista de Dados Sênior, atuo no desenvolvimento de projetos utilizando técnicas de Análise Exploratória, Visualização de Dados, Processamento de Linguagem Natural e Machine Learning.
+url: "https://erickrribeiro.github.io"
+twitter_username: erickrribeiro
+github_username: erickrribeiro
+minimal_mistakes_skin: default
+search: true
+
+twitter:
+  username: "erickrribeiro"
+
+# Build settings
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+
+
+# Outputting
+permalink: /:year/:month/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
+timezone: America/Manaus
+
+include:
+  - _pages
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+author:
+  name   : "Erick Ribeiro | M.Sc."
+  avatar : "/images/bio-photo.jpg"
+  bio    : "Cientista de Dados - FPFtech"
+  links:
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/erickrribeiro"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/erickrribeiro"
+    - label: "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/erickrribeiro"
+    - label: "Subscribe"
+      icon: "fas fa-fw fa-envelope"
+      url: "https://erickrribeiro.substack.com"
+    - label: "Sponsor"
+      icon: "fas fa-fw fa-mug-hot"
+      url: "https://www.buymeacoffee.com/erickrribeiro"
+#    - label: "Email"
+#      icon: "fab fa-envelope"
+#      url: "mailto:meamitkc@gmail.com"
+#    - label: "Feed"
+#      icon: "fab fa-fw fa-globe"
+#      url: "/feed.xml"
+
+footer:
+  links:
+    # - label: "Twitter"
+    #   icon: "fab fa-fw fa-twitter-square"
+    #   url: "https://twitter.com/erickrribeiro"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/erickrribeiro"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: "images/"
+    values:
+      image: true
+
+
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+comments:
+  provider: "utterances"
+  utterances:
+    theme: "github-light" # "github-dark"
+    issue_term: "pathname"
+repository: "erickrribeiro/blog-comments"
+
+google_site_verification: "4MVW88X4VwB0SGqNdfcBhp4Xbf1CMSTdLfLzEMP1PFc"
+
+social:
+  type:  Person
+  name:  Amit Chaudhary
+  links:
+    - "https://twitter.com/erickrribeiro"
+    - "https://www.facebook.com/erickrribeiro"
+    - "https://www.linkedin.com/in/erickrribeiro"
+
+analytics:
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-MTJXVEWEPE"
+    anonymize_ip: false
