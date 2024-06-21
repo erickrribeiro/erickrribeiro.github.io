@@ -3,7 +3,7 @@
 
 ## Detalhes sobre o código-fonte
 
-> A estrutura deste repositório é baseada no repositório [amitness/amitness.github.io](https://github.com/amitness/amitness.github.io). Desde já, deixo meus agradecimentos ao Amitness por disponibilizar o conteúdo no GitHub.  
+> A estrutura deste repositório é baseada no repositório [amitness/amitness.github.io](https://github.com/amitness). Desde já, deixo meus agradecimentos ao Amitness por disponibilizar o conteúdo no GitHub.  
 
 O site é construído por meio do uso da ferramenta [Jekyll](https://jekyllrb.com), um gerador de sites escrito na linguagem de programação Python, e usa o tema baseado no [minimal-mistakes](https://mmistakes.github.io/minimal-mistakes).
 
@@ -24,8 +24,6 @@ docker-compose up
 ```
 
 And you should see the blog if you visit [http://localhost:4000](http://localhost:4000).
-
-
 
 ## Contact
 
