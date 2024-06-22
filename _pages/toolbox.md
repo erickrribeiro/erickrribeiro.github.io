@@ -1,9 +1,9 @@
 ---
-title: "Machine Learning Toolbox"
+title: "Ferramentas"
 permalink: /toolbox/
-date: 2020-09-27T15:45-00:00
-last_modified_at: 2021-05-15T00:00:00-00:00
-excerpt: A curated list of libraries for all phases of the Machine Learning workflow   
+date: 2023-12-01T15:45-00:00
+last_modified_at: 2023-12-01T00:00:00-00:00
+excerpt: Uma lista de bibliotecas úteis que encontrei ao trabalhar em projetos de Machine Learning.    
 header:
   og_image: /images/toolbox.png
   teaser: "/images/toolbox.png"
@@ -11,4 +11,4 @@ toc: true
 toc_sticky: true
 ---
 
-Este documento contém uma lista de bibliotecas úteis que encontrei ao trabalhar em projetos de Machine Learning. 
+A seguir uma lista de bibliotecas úteis que encontrei ao trabalhar em projetos de Machine Learning. 

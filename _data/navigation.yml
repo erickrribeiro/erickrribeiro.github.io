@@ -1,11 +1,11 @@
 main:
   - title: "Posts"
     url: /archives/
-  - title: "Categories"
+  - title: "Categorias"
     url: /categories/
-  - title: "Toolbox"
+  - title: "Ferramentas"
     url: /toolbox/
-  - title: "About"
+  - title: "Sobre"
     url: /about/
-  - title: "Contact"
+  - title: "Contato"
     url: /contact/
