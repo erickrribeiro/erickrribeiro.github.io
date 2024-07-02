@@ -5,6 +5,8 @@ main:
     url: /categories/
   - title: "Ferramentas"
     url: /toolbox/
+  - title: "Códigos"
+    url: /cookbook/
   - title: "Sobre"
     url: /about/
   - title: "Contato"
