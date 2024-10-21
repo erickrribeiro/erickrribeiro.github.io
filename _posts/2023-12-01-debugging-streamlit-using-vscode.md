@@ -1,16 +1,17 @@
 ---
-title: "Depurando Aplicativo Streamlit no VSCode"
+title: "Depurando Aplicativo feito com Streamlit no VSCode"
 date: 2023-12-01T00:00-00:00
-last_modified_at: 2023-12-15T00:00:00-00:00
+last_modified_at: 2024-10-21T00:00:00-00:00
 categories:
   - vscode
   - python
+  - streamlit
 permalink: /vscode/depurando-aplicativo-streamlit-no-vscode
 classes: wide
-excerpt: Neste tutorial, mostramos como usar o VSCode para depurar um aplicativo Streamlit. Abordamos desde a configuração básica até a definição de pontos de interrupção, tornando a depuração mais intuitiva e integrada ao seu ambiente de desenvolvimento.
+excerpt: Neste tutorial, mostramos como usar o VSCode para depurar um aplicativo feito com o Streamlit. Abordamos desde a configuração básica até a definição de pontos de interrupção, tornando a depuração mais intuitiva e integrada ao seu ambiente de desenvolvimento.
 ---
 
-Neste tutorial, vou mostrar como usar o VSCode para [depurar](https://www.hostgator.com.br/blog/debug-desenvolvimento-web) (ou debug) um aplicativo feito com [Streamlit](https://docs.streamlit.io/). 
+Neste tutorial, vou mostrar como usar o VSCode para [depurar](https://www.hostgator.com.br/blog/debug-desenvolvimento-web) (ou debugar) um aplicativo feito com [Streamlit](https://docs.streamlit.io/). 
 
 ## Aplicativo
 
@@ -30,14 +31,14 @@ Abra o arquvio **.vscode/launch.json**, apague o conteúdo existe e adicione o t
 
 {% gist 8de5c309caafa9e1ee9664bcc69df03a launch.json%}
 
-Pronto! Agora é possível realizar a depupração de um código python que usa a biblioteca Streamlit
+Pronto! Agora é possível realizar a depuração de um código Python que usa a biblioteca Streamlit.
 
 ## Depurando o código 
 
 
 ![Executando a depuração](/images/debugger-running.gif)
 
-Depois de configurar o arquivo **.vscode/launch.json** e preparar o seu ambiente no VSCode, é hora de começar a depurar o código do aplicativo Streamlit. Vamos seguir os seguintes passos:
+Depois de configurar o arquivo **.vscode/launch.json** e preparar o seu ambiente no VSCode, é hora de começar a depurar o código do aplicativo feito com Streamlit. Para isso, siga as instruções:
 
 
 1. **Adicionar Pontos de Interrupção (Breakpoints)**
@@ -49,10 +50,10 @@ Depois de configurar o arquivo **.vscode/launch.json** e preparar o seu ambiente
 2. **Iniciar a Depuração**
    - Clique no ícone de **Run and Debug** (Executar e Depurar) na barra lateral esquerda.
    - Selecione a configuração **Python: Streamlit** e clique no botão de **play** para iniciar a depuração. Isso iniciará o servidor do Streamlit e abrirá um terminal integrado no VSCode.
-   - O aplicativo Streamlit será executado e estará acessível no navegador, no endereço [localhost:2000](http://localhost:2000).
+   - O aplicativo feito com Streamlit será executado e estará acessível no navegador, no endereço [localhost:2000](http://localhost:2000).
 
 3. **Interagir com o Aplicativo**
-   - Navegue para o endereço onde o aplicativo Streamlit está sendo executado.
+   - Navegue para o endereço onde o aplicativo com Streamlit está sendo executado.
    - Insira valores nos campos **Informe um número** e **Informe outro número**.
    - Clique no botão **Somar**.
 
@@ -67,7 +68,7 @@ Depois de configurar o arquivo **.vscode/launch.json** e preparar o seu ambiente
 6. **Controlar a Execução:**
    - Use os botões de controle de execução na parte superior da tela para continuar a execução (**Continue**), avançar para a próxima linha (**Step Over**), entrar em uma função (**Step Into**) ou sair de uma função (**Step Out**).
 
-Com esses passos, você estará apto a depurar seu aplicativo Streamlit utilizando o VSCode, permitindo identificar e corrigir erros de forma eficiente. 
+Com esses passos, você estará apto a depurar seu aplicativo feito com Streamlit utilizando o VSCode, permitindo identificar e corrigir erros de forma eficiente. 
 
 ## Conclusão
 

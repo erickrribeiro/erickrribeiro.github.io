@@ -1,11 +1,11 @@
 ---
 title: "PyCharm com Django: Erro ao executar o PyCharm no modo de debugger"
 date: 2024-01-01T00:00-00:00
-last_modified_at: 2024-01-01T00:00:00-00:00
+last_modified_at: 2024-10-21T00:00:00-00:00
 categories:
   - pycharm
   - python
-permalink: /vscode/depurando-aplicativo-streamlit-no-vscode
+permalink: /vscode/pycharm-com-django-erro-no-debugger
 classes: wide
 excerpt: Neste tutorial, mostramos como resolver o problema "Unknown command", que acontece durante a execução de um script ou projeto no modo debugger do PyCharm.
 ---
