@@ -1,7 +1,7 @@
 ---
 title: "Guia de instalação e uso do Ollama"
 date: 2024-10-01T00:00-00:00
-last_modified_at: 2028-10-18T00:00:00-00:00
+last_modified_at: 2024-10-21T00:00:00-00:00
 categories:
   - ollama
   - llm
