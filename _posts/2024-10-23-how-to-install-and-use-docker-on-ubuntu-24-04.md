@@ -6,7 +6,7 @@ categories:
   - docker
   - linux
 
-permalink: /seo/guia-de-instalacao-do-docker-no-ubuntu-24-04
+permalink: /guia/guia-de-instalacao-do-docker-no-ubuntu-24-04
 classes: wide
 excerpt: Aprenda a instalar e usar o Docker para criar ambientes isolados em containers, facilitando a execução de aplicações. O guia cobre a instalação do Docker CE no Ubuntu 24.04, com e sem permissões de administrador.
 ---

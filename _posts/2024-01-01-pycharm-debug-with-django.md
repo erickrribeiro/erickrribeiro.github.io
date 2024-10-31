@@ -5,7 +5,7 @@ last_modified_at: 2024-10-21T00:00:00-00:00
 categories:
   - pycharm
   - python
-permalink: /vscode/pycharm-com-django-erro-no-debugger
+permalink: /pycharm/pycharm-com-django-erro-no-debugger
 classes: wide
 excerpt: Neste tutorial, mostramos como resolver o problema "Unknown command", que acontece durante a execução de um script ou projeto no modo debugger do PyCharm.
 ---
