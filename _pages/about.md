@@ -8,4 +8,5 @@ excerpt: Saiba mais sobre mim, meus empreendimentos atuais, áreas de interesse 
 Atuo como Cientista de Dados na empresa [FPFtech](https://www.linkedin.com/company/fpftech). Tenho título de Mestre em Ciencia da Computação pela [Universidade Federal do Amazonas](https://icomp.ufam.edu.br/), onde trabalhei com algoritmos voltados para a construção de chatbots usando Processamento de Linguagem Natural.
 
 **Entrar em contato**  
-Qualquer dúvida ou suguestão é só mandar mensagem no [LinkedIn](https://www.linkedin.com/in/erick-rribeiro). Eu respondo assim que possível.
+
+Ficou com dúvida ou possui alguma sugestão sobre o site ou qualquer outro tema, entre em contato por meio do [Telegram](https://t.me/ErickRibeiro) ou [e-mail](mailto:erick.ribeiro.16@gmail.com).

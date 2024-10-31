@@ -7,10 +7,12 @@ categories:
   - llm
   - genai
 
-permalink: /seo/guia-de-instalacao-uso-do-ollama-windows-macos-linux
+permalink: /guia/guia-de-instalacao-uso-do-ollama-windows-macos-linux
 classes: wide
 excerpt: Neste guia de instalação, aprenda como configurar utilizar a ferramenta Ollama, para ter seu próprio ChatGPT na máquina local.
 ---
+
+![alt text](/images/ollama-logo.png)
 
 # Introdução
 
@@ -18,13 +20,13 @@ Hoje em dia, a inteligência artificial está cada vez mais presente na vida dos
 
 # O que é Ollama?
 
-O Ollama é uma ferramenta e plataforma que simplifica o uso de modelos LLMs localmente. Esta ferramenta é projetada para simplificar configurações complexas que anteriormente eram necessárias para instalar um LLM localmente. O uso do Ollama permite que desenvolvedores e entusiastas de Inteligência Artificial (IA) utilizem os LLMs de maneira mais acessível e eficiente, facilitando a integração e experimentação em projetos
+O Ollama é uma ferramenta e plataforma que simplifica o uso de modelos LLMs localmente. Esta ferramenta é projetada para simplificar configurações complexas que anteriormente eram necessárias para instalar um LLM localmente. O uso da ferramenta Ollama permite que desenvolvedores e entusiastas de Inteligência Artificial (IA) utilizem os LLMs de maneira mais acessível e eficiente, facilitando a integração e experimentação em projetos.
 
 A seguir, algumas vantagens da ferramenta: 
-- Executar um LLM localmente, sem acesso a internet;
-- Total controle sobre os dados, garantindo privacidade e segurança;
+- Executar um LLM localmente, **sem acesso a internet**;
+- Total controle sobre os dados, garantindo **privacidade e segurança**;
 - Acesso à LLMs que acabaram de ser lançados;
-- Integração por meio de API
+- Integração por meio de **API**.
 
 Em contrapartida, a desvantagem é o hardware. Para executar um LLM com a ferramenta Ollama é necessário possuir um hardware bom, sendo recomendável um hardware com GPU. Caso contrário, quanto pior o hardware mais lenta será a resposta do LLM.
 
@@ -89,16 +91,16 @@ A ferramenta Ollama também permite que outras aplicações façam uso do LLM, p
 
 Como otimizar a performance do modelo
 
-- **Hardware**: utilize uma GPU dedicada para melhor performance.
-- **Drivers**: mantenha os drivers da GPU atualizados.
+- **Hardware**: utilize uma GPU dedicada para melhor performance;
+- **Drivers**: mantenha os drivers da GPU atualizados;
 - **Recursos do sistema**: feche aplicativos desnecessários para liberar recursos.
 
 Resolvendo problemas comuns
 
-- **Instalação**: certifique-se de que seu sistema está atualizado e que você tem permissões adequadas.
-- **Carregamento de modelos**: Verifique se o nome do modelo está correto e se há - atualizações disponíveis.
+- **Instalação**: certifique-se de que seu sistema está atualizado e que você tem permissões adequadas;
+- **Carregamento de modelos**: Verifique se o nome do modelo está correto e se há - atualizações disponíveis;
 - **Conectividade da API**: Certifique-se de que o Ollama está rodando e que a porta padrão não está em uso por outro aplicativo.
 
 ## Conclusão
 
-Nesta guia, exploramos como instalar e configurar a ferramenta Ollama, baixar e rodar os LLMs, e utilizar interfaces gráficas para facilitar a interação. Com essa ferramenta, você está pronto para explorar o mundo da inteligência artificial localmente.
+Nesta guia, exploramos como instalar e configurar a ferramenta Ollama, baixar e executar os LLMs. A modelos de liguagem podem ser utilizados no terminal ou via API. Com esta ferramenta, você está pronto para explorar o mundo da IA na sua máquina local.
