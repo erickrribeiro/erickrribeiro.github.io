@@ -16,7 +16,7 @@ Ao longo do mês de abril, a OpenAI anunciou uma série de avanços importantes 
 
 ### **1. Novos Modelos de Raciocínio: o3 e o4-mini**
 
-![image.png](attachment:ec173cf2-28e8-4061-95e4-7c02d63eced7:image.png)
+![Novos modelos de racioncício da OpenAI](/images/openai_o3_o4-mini.png)
 
 A OpenAI lançou os modelos [**o3** e **o4-mini**](https://platform.openai.com/docs/models/compare?model=o3), voltados para tarefas complexas como programação, matemática e visão computacional.
 
@@ -27,8 +27,8 @@ Ambos estão disponíveis na API via Chat Completions e Responses. Para quem bus
 
 ### **2. GPT-4.1: Mais Contexto, Melhor Raciocínio**
 
-![image.png](attachment:e50a22be-6a94-425d-9341-872ccb84330d:image.png)
-
+![Novas versões do GPT4.1](/images/gpt_4.1_api.png)
+ 
 Três versões do GPT-4.1 foram lançadas:
 
 - [**GPT-4.1**](https://platform.openai.com/docs/models/gpt-4.1)
@@ -39,27 +39,23 @@ Estes três novos modelos foram otimizados para tarefas como codificação, inte
 
 ### **3. Codex CLI: IA Local Para Codificação**
 
-![image.png](attachment:d0f1a3ec-df4a-42fd-8136-4873e2a9c382:image.png)
+![Lançamento o Codex CLI](/images/codex_cli.gif)
 
 A OpenAI apresentou o [**Codex CLI**](https://github.com/openai/codex), uma ferramenta open source que transforma linguagem natural em código executável localmente. Com ela, basta dizer o que você quer fazer, corrigir ou entender, e a ferramenta traduz isso diretamente em código funcional.
 
 Compatível com os modelos mais recentes da OpenAI, o Codex CLI é a ferramenta voltada para desenvolvedores que buscam maior controle e privacidade na programação assistida por Agentes de IA. [Assista à demonstração](https://www.youtube.com/watch?v=FUq9qRwrDrI) no Youtube.
 
----
-
 ### **4. Evals API: Avaliação Automatizada de Prompts**
 
 Com a [**Evals API**](https://platform.openai.com/docs/guides/evals), agora é possível criar e rodar testes automatizados para avaliar a performance de modelos em tarefas específicas. Isso facilita a iteração rápida de prompts e ajustes em aplicações que usam IA.
 
----
-
 ### **5. Modelos de Áudio: Fala e Transcrição com Qualidade Superior**
 
-![image.png](attachment:10a89fe7-8efa-4a63-838b-1969ffa2c9b7:image.png)
+![Novos modelos de áudio para STT e TTS](/images/audio_models.png)
 
 [Três novos modelos de áudio](https://platform.openai.com/docs/guides/audio) foram adicionados à API:
 
-- Dois modelos de **transcrição de fala** que superam o Whisper em precisão: `gpt-4o-transcribe`, `gpt-4o-mini-transcribe`
+- Dois modelos de **transcrição de fala (STT)** que superam o Whisper em precisão: `gpt-4o-transcribe`, `gpt-4o-mini-transcribe`
 - Um novo modelo de **síntese de voz (TTS)** com controle sobre o estilo da fala: `gpt-4o-mini-tts`
 
 Esses avanços também foram integrados ao [**Agents SDK**](https://platform.openai.com/docs/guides/voice-agents), permitindo a criação de agentes de voz mais naturais e responsivos.
