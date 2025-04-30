@@ -27,7 +27,7 @@ Ambos estão disponíveis na API via Chat Completions e Responses. Para quem bus
 
 ### **2. GPT-4.1: Mais Contexto, Melhor Raciocínio**
 
-![Novas versões do GPT4.1](/images/gpt_4.1_api.png)
+![Novas versões do GPT4.1](/images/gpt_4_1_api.png)
  
 Três versões do GPT-4.1 foram lançadas:
 
