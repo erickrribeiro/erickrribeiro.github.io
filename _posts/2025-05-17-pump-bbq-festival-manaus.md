@@ -11,6 +11,8 @@ permalink: /noticias/manaus/pump-bbq-festival-2025
 classes: wide
 excerpt: O maior festival de churrasco da Região Norte acontece neste sábado (17) em Manaus, com open food, música ao vivo, área kids e atrações gastronômicas imperdíveis.
 ---
+![imagem promocional do evento pump bbq festival 2025 em manaus](https://ingressofly.com/images/imagens-site/67d82852c2ac9.jpg)
+
 
 Manaus será o ponto de encontro dos apaixonados por churrasco neste sábado (17), com a realização do **Pump BBQ Festival 2025**. A partir do meio-dia, a **Universidade Nilton Lins** (Zona Centro-Sul) recebe o maior festival de churrasco da Região Norte, oferecendo uma verdadeira imersão gastronômica ao ar livre.
 
@@ -33,9 +35,9 @@ Além da carne e da bebida, o Pump BBQ Festival também oferece:
 - Loja Nação Rubro-Negra (Sumaúma Shopping)
 
 ### Serviço
-📍 **Local:** Universidade Nilton Lins – Av. Professor Nilton Lins, 3259, Parque das Laranjeiras  
+📍 **Local:** [Universidade Nilton Lins – Av. Professor Nilton Lins, 3259, Parque das Laranjeiras](https://g.co/kgs/Et1wbDX)  
 🕛 **Data e horário:** Sábado, 17 de maio, a partir das 12h  
-🎟️ **Ingressos:** Já disponíveis
+🎟️ **Ingressos:** Já disponíveis em [ingressofly](https://ingressofly.com/comprar/2388/pump-bbq-festival)
 
 Se você curte **churrasco de verdade, bebida gelada e boas companhias**, o **Pump BBQ Festival 2025** é o rolê obrigatório do fim de semana.
 
