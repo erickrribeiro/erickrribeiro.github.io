@@ -1,11 +1,11 @@
 main:
   - title: "Posts"
     url: /archives/
-  - title: "Categorias"
-    url: /categories/
-  - title: "Ferramentas"
-    url: /toolbox/
-  - title: "Códigos"
-    url: /cookbook/
+  # - title: "Categorias"
+  #   url: /categories/
+  # - title: "Ferramentas"
+  #   url: /toolbox/
+  # - title: "Códigos"
+  #   url: /cookbook/
   - title: "Sobre"
     url: /about/
