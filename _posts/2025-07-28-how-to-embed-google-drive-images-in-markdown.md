@@ -37,15 +37,14 @@ O uso do Markdown é bastante simples, porém oferece poucas opções de persona
 - A opção em HTML oferece maior controle sobre o tamanho e o estilo da imagem, como a adição de sombras e a definição da largura.
 - A visualização da imagem será ajustada conforme as configurações do código HTML utilizado.
 
-
----
-
 ## Passo a passo resumido
 
 1. Gere um link compartilhável para a sua imagem no Google Drive. Por exemplo: 
+
 ```
 https://drive.google.com/file/d/1rJIMCvX1XsyB0PLOI0swRAV3cYjNFEt0/view?usp=sharing
 ```
+
 2. Utilize o `<ID da imagem>` do link para exibir a imagem via Markdown.
 
 ```
