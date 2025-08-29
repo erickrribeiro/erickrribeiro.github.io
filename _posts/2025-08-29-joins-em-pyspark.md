@@ -26,8 +26,6 @@ tags:
   - cross join
 ---
 
-# Joins em PySpark
-
 Neste artigo, vamos explorar como o Spark permite unir diferentes fontes de dados ou linhas de uma mesma tabela, explicando o funcionamento das junções e como o Spark as executa na prática. Como bônus, abordaremos o tipo CROSS JOIN e o uso de filtros juntamente com a cláusula JOIN.
 
 ---
@@ -340,4 +338,4 @@ Neste artigo, você viu como funcionam os joins no PySpark, conheceu os diferent
 
 ## Referências
 
-https://sparkbyexamples.com/pyspark/pyspark-join-explained-with-examples/
+[https://sparkbyexamples.com/pyspark/pyspark-join-explained-with-examples](https://sparkbyexamples.com/pyspark/pyspark-join-explained-with-examples)
