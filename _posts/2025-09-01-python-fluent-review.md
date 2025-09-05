@@ -19,6 +19,9 @@ tags:
   - github
 ---
 
+![Mutirão para Revisão do Python Fluente Vol](/images/python-fluent-review.png)
+
+
 O Luciano Ramalho anunciou em seu blog um **mutirão para revisão do volume 1 da segunda edição do _Python Fluente_**, que será publicado em português, impresso, dividido em **3 volumes** (8 capítulos cada, cerca de 400 páginas por volume).  
 
 Atualmente, ele está trabalhando no **Volume 1 — Dados + Funções**.  
