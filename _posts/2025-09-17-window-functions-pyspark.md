@@ -1,7 +1,7 @@
 ---
 title: "Window Functions em PySpark: Como analisar dados em alto volume"
-date: 2025-08-29T00:00-03:00
-last_modified_at: 2025-08-29T00:00:00-03:00
+date: 2025-07-17T00:00-03:00
+last_modified_at: 2025-09-17T00:00:00-03:00
 categories:
   - big-data
   - pyspark
@@ -31,8 +31,7 @@ Neste artigo, vamos explorar como usar funções de janela no PySpark, entender 
 
 ## O que são Window Functions?
 
-As funções de janela permitem aplicar cálculos sobre **partições de dados** sem precisar agregá-los.  
-Isso significa que conseguimos calcular métricas **linha a linha**, mas ainda considerando um grupo maior.
+As funções de janela permitem aplicar cálculos sobre **partições de dados** sem precisar agregá-los. Isso significa que conseguimos calcular métricas **linha a linha**, mas ainda considerando um grupo maior.
 
 Exemplos de uso:  
 - Ordenar elementos dentro de cada categoria.  
@@ -89,7 +88,7 @@ windowSpec = Window.partitionBy("depto").orderBy("salario")
 df.withColumn("row_num", F.row_number().over(windowSpec)).show()
 ```
 
-Entrada:
+**Entrada**:
 ```
 +-------+-------+-------+
 | depto | nome  |salario|
@@ -102,7 +101,7 @@ Entrada:
 +-------+-------+-------+
 ```
 
-Saída:
+**Saída**:
 ```
 +-------+-------+-------+-------+
 | depto | nome  |salario|row_num|
@@ -132,7 +131,7 @@ df.withColumn("rank", F.rank().over(windowSpec)) \
 
 Exemplo com salários repetidos:
 
-Entrada:
+**Entrada**:
 ```
 +-------+-------+-------+
 | depto | nome  |salario|
@@ -144,7 +143,7 @@ Entrada:
 +-------+-------+-------+
 ```
 
-Saída:
+**Saída**:
 
 ```
 +-------+-------+-------+------+-----------+
@@ -169,7 +168,7 @@ df.withColumn("lag", F.lag("salario", 1).over(windowSpec)) \
   .show()
 ```
 
-Saída:
+**Saída**:
 
 ```
 +-------+-------+-------+------+------+ 
@@ -197,7 +196,7 @@ df.withColumn("first_sal", F.first("salario").over(windowSpec)) \
 ```
 
 
-Saída:
+**Saída**:
 
 ```
 +-------+-------+-------+----------+---------+
